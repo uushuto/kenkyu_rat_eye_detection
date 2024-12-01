@@ -53,6 +53,7 @@ python main.py --batch_size 8 --lr_drop 140 --output_dir ./logs --num_queries 1 
 学習済みモデルを使用して評価を行うには、以下のコマンドを実行します：
 
 python test.py
+---
 
 ## **参考文献**
 
