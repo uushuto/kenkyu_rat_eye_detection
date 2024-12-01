@@ -1,0 +1,2 @@
+python main.py --batch_size 2 --no_aux_loss --eval --resume logs/checkpoint.pth --coco_path ../data2
+
