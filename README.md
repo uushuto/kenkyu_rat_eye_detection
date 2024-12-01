@@ -36,14 +36,18 @@ conda activate rat_eye_detection
 
 ### **2. 必要なライブラリのインストール**
 必要なPythonライブラリをインストールしてください。
+```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install -r requirements.txt
+```
 
 ## **実行方法**
 1. モデルのトレーニング
 以下のコマンドでモデルをトレーニングします：
 
+```bash
 python main.py --batch_size 8 --lr_drop 140 --output_dir ./logs --num_queries 1 --coco_path ./coco_annotations
+```
 引数の詳細
 --batch_size: バッチサイズ（デフォルトは8）
 --lr_drop: 学習率を変更するエポック数（例: 140）
@@ -53,7 +57,9 @@ python main.py --batch_size 8 --lr_drop 140 --output_dir ./logs --num_queries 1 
 2. モデルの評価
 学習済みモデルを使用して評価を行うには、以下のコマンドを実行します：
 
+```bash
 python test.py
+```
 ---
 
 ## **参考文献**
