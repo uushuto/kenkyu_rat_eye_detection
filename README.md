@@ -12,19 +12,23 @@
 
 ---
 
-## **コード詳細**
-main.py : トレーニングするためのコードです。
-test.py : 学習済みDETRモデルを使用してCOCO形式のデータセット上で評価を行うためのコードです。
-test_video.py : 学習済みDETRモデルを使用して動画に対して評価を行うためのコードです。
-labelme2coco.py : Labelme形式のアノテーションデータをCOCO形式に変換するために使用されます。
+# コード詳細
 
+- `main.py`：トレーニングするためのコードです。
+- `test.py`：学習済みDETRモデルを使用してCOCO形式のデータセット上で評価を行うためのコードです。
+- `test_video.py`：学習済みDETRモデルを使用して動画に対して評価を行うためのコードです。
+- `labelme2coco.py`：Labelme形式のアノテーションデータをCOCO形式に変換するために使用されます。
 
-## **環境構築**
+---
+
+## 環境構築
 
 以下の手順で環境を構築してください。
 
 ### **1. 仮想環境の作成**
-Anacondaを使用して仮想環境を作成します:
+
+Anacondaを使用して仮想環境を作成します：
+
 ```bash
 conda create --name rat_eye_detection python=3.9
 conda activate rat_eye_detection
