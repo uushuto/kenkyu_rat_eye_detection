@@ -31,7 +31,8 @@ Anacondaを使用して仮想環境を作成します：
 
 ```bash
 conda create --name rat_eye_detection python=3.9
-conda activate rat_eye_detection```
+conda activate rat_eye_detection
+```
 
 ### **2. 必要なライブラリのインストール**
 必要なPythonライブラリをインストールしてください。
